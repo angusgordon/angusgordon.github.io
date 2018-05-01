@@ -1,0 +1,37 @@
+---
+pages:
+- _posts/2016-11-01-all-saints-day.md
+- _posts/2015-08-08-robert.md
+- _posts/2015-04-18-happy-record-store-day.md
+- _posts/2015-04-06-the-real-canon.md
+- _posts/2015-03-29-likes-and-dislikes.md
+- _posts/2015-03-22-hbo-sceptic.md
+- _posts/2015-03-15-night-walks.md
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: feature-img
+  label: Feature img
+  type: file
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: excerpt
+  label: Excerpt
+  type: textarea
+  hidden: false
+  default: ''
